@@ -8,11 +8,9 @@
   home.username = user;
   home.homeDirectory = "/home/${user}";
 
-  # Link neovim config
+  # Link neovim config as symlink
   home.file.".config/nvim" = {
-    source = ./neovim-config;
-    recursive = true;
-    executable = true;
+    source = (config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nixos-config/home/neovim-config");
   };
 
   programs.home-manager.enable = true;
