@@ -30,7 +30,7 @@ deploy-system-debug:
   nixos-rebuild switch --flake . --use-remote-sudo --show-trace --verbose
 
 deploy-home:
-  home-manager switch --flake .
+  home-manager switch --flake .\?submodules=1
 
 deploy-home-debug:
-  home-manager switch --flake . --show-trace
+  home-manager switch --flake .\?submodules=1 --show-trace
