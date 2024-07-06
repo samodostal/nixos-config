@@ -14,6 +14,7 @@
     # Terminal utilities
     neofetch
     neovim
+    lazygit
     gh
   ];
 }

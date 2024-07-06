@@ -13,7 +13,7 @@
     pinentry-curses
     home-manager
     just
-
+    ripgrep
     jdk
   ];
 }
