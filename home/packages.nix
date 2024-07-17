@@ -13,6 +13,7 @@
     bitwarden-desktop
 
     # Terminal utilities
+		kitty
     neofetch
     neovim
     lazygit
