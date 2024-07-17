@@ -6,7 +6,7 @@ deploy-debug:
   just deploy-system-debug
   just deploy-home-debug
 
-up:
+update:
   nix flake update
 
 history:
@@ -17,6 +17,9 @@ repl:
 
 clean:
   sudo nix profile wipe-history --profile /nix/var/nix/profiles/system  --older-than 7d
+
+repair-store:
+	sudo nix-store --repair --verify --check-contents
 
 gc:
   sudo nix-collect-garbage --delete-old
