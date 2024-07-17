@@ -10,6 +10,7 @@
     imhex
     ns-usbloader
     kicad
+    bitwarden-desktop
 
     # Terminal utilities
     neofetch
