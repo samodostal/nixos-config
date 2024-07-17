@@ -18,4 +18,6 @@
     exfat
     exfatprogs
   ];
+
+  programs.nix-ld.enable = true;
 }
