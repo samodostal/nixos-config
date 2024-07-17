@@ -15,5 +15,7 @@
     just
     ripgrep
     jdk
+    exfat
+    exfatprogs
   ];
 }
