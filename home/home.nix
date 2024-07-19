@@ -1,4 +1,4 @@
-{ config, pkgs, lib, hostname, user, ... }:
+{ config, pkgs, lib, inputs, hostname, user, ... }:
 {
   imports = [
     ./packages.nix
@@ -7,6 +7,8 @@
 
   home.username = user;
   home.homeDirectory = "/home/${user}";
+
+	nixpkgs.overlays = [ inputs.neovim-nightly-overlay.overlays.default ];
 
   # Link neovim config as symlink
   home.file.".config/nvim" = {

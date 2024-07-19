@@ -2,7 +2,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    firefox
+    gcc
     git
     vim
     wget
@@ -17,6 +17,7 @@
     jdk
     exfat
     exfatprogs
+    firefox
   ];
 
   programs.nix-ld.enable = true;

@@ -9,7 +9,7 @@
     godot_4
     imhex
     ns-usbloader
-    kicad
+    # kicad (broken on nixos-unstable)
     bitwarden-desktop
 
     # Terminal utilities
