@@ -7,6 +7,7 @@
 
   home.username = user;
   home.homeDirectory = "/home/${user}";
+	home.sessionPath = [ "$HOME/.cargo/bin/" ];
 
 	nixpkgs.overlays = [ inputs.neovim-nightly-overlay.overlays.default ];
 
