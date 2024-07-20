@@ -7,9 +7,9 @@
 
   home.username = user;
   home.homeDirectory = "/home/${user}";
-	home.sessionPath = [ "$HOME/.cargo/bin/" ];
+  home.sessionPath = [ "$HOME/.cargo/bin/" ];
 
-	nixpkgs.overlays = [ inputs.neovim-nightly-overlay.overlays.default ];
+  nixpkgs.overlays = [ inputs.neovim-nightly-overlay.overlays.default ];
 
   # Link neovim config as symlink
   home.file.".config/nvim" = {

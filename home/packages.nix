@@ -13,21 +13,21 @@
     bitwarden-desktop
 
     # Terminal utilities
-		kitty
+    kitty
     neofetch
     neovim
     lazygit
     gh
-		tree-sitter
-		tldr
+    tree-sitter
+    tldr
 
-		# Development
-		nodejs_22
-		python3
-		jdk
-		go
-		php
-		# rust via rustup
-			luajitPackages.luarocks
-		];
-	}
+    # Development
+    nodejs_22
+    python3
+    jdk
+    go
+    php
+    # rust via rustup
+    luajitPackages.luarocks
+  ];
+}
