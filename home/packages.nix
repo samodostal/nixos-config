@@ -21,6 +21,7 @@
     gh
     tree-sitter
     tldr
+    thefuck
 
     # Development
     nodejs_22
@@ -29,9 +30,9 @@
     go
     php
     # rust via rustup
-		# haskell via ghcup (not working)
-		lua
+    # haskell via ghcup (not working)
+    lua
     luajitPackages.luarocks
-		dotnetCorePackages.sdk_9_0
+    dotnetCorePackages.sdk_9_0
   ];
 }
