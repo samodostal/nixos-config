@@ -11,6 +11,7 @@
     ns-usbloader
     # kicad (broken on nixos-unstable)
     bitwarden-desktop
+    firefox
 
     # Terminal utilities
     kitty
@@ -28,6 +29,9 @@
     go
     php
     # rust via rustup
+		# haskell via ghcup (not working)
+		lua
     luajitPackages.luarocks
+		dotnetCorePackages.sdk_9_0
   ];
 }

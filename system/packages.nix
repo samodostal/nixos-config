@@ -2,6 +2,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+    home-manager
     gnumake
     gcc
     cmake
@@ -10,17 +11,17 @@
     wget
     curl
     unrar
-    xclip
+		gmp
+		ncurses
+		pkg-config
     gnupg
-    pinentry-curses
-    home-manager
-    just
-    fzf
-    ripgrep
     exfat
     exfatprogs
     unzip
-    firefox
+    xclip
+    fzf
+    ripgrep
+    just
   ];
 
   programs.nix-ld.enable = true;
