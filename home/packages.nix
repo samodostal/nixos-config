@@ -9,7 +9,8 @@
     godot_4
     imhex
     ns-usbloader
-    # kicad (broken on nixos-unstable)
+    kicad
+    blender
     bitwarden-desktop
     firefox
 
