@@ -16,6 +16,7 @@
 
     # Terminal utilities
     kitty
+		tmux
     neofetch
     neovim
     lazygit
@@ -24,7 +25,7 @@
     tldr
     thefuck
 
-    # Development
+    # Development kits
     nodejs_22
     python3
     jdk
@@ -35,5 +36,6 @@
     lua
     luajitPackages.luarocks
     dotnetCorePackages.sdk_9_0
+    qmk
   ];
 }
