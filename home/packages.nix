@@ -16,7 +16,8 @@
 
     # Terminal utilities
     kitty
-		tmux
+    tmux
+    tmuxPlugins.tokyo-night-tmux
     neofetch
     neovim
     lazygit

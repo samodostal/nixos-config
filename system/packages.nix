@@ -11,9 +11,9 @@
     wget
     curl
     unrar
-		gmp
-		ncurses
-		pkg-config
+    gmp
+    ncurses
+    pkg-config
     gnupg
     exfat
     exfatprogs

@@ -14,8 +14,12 @@
     shell = pkgs.zsh;
   };
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader =
+    {
+      systemd-boot.enable = true;
+      systemd-boot.configurationLimit = 10;
+      efi.canTouchEfiVariables = true;
+    };
 
   networking.networkmanager.enable = true;
   networking.hostName = hostname;
