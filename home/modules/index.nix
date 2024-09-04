@@ -4,5 +4,6 @@
     ./kitty.nix
     ./tmux.nix
     ./lazygit.nix
+    ./qutebrowser.nix
   ];
 }
