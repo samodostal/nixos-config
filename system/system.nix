@@ -61,6 +61,14 @@
     pulse.enable = true;
   };
 
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 1w";
+  };
+
+  nix.settings.auto-optimise-store = true;
+
   # Initial system install version, DON'T CHANGE
   system.stateVersion = "24.05";
 }
