@@ -11,8 +11,10 @@
     ns-usbloader
     kicad
     blender
+    freecad
     bitwarden-desktop
     firefox
+    virtualbox
 
     # Terminal utilities
     kitty
