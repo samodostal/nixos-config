@@ -18,6 +18,7 @@
     exfat
     exfatprogs
     unzip
+    killall
     xclip
     fzf
     ripgrep
