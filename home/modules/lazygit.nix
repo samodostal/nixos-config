@@ -5,7 +5,7 @@
       gui = {
         showBottomLine = false;
       };
-			quitOnTopLevelReturn = true;
+      quitOnTopLevelReturn = true;
     };
   };
 }
