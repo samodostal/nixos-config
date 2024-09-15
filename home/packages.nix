@@ -2,6 +2,10 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    # Gnome
+    gnome.gnome-tweaks
+    gnomeExtensions.space-bar
+
     # Applications
     spotify
     thunderbird
