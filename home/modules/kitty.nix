@@ -6,6 +6,7 @@
       hide_window_decorations = true;
     };
     keybindings = {
+      "ctrl+0" = "change_font_size all 0";
       "ctrl+plus" = "change_font_size all +2.0";
       "ctrl+minus" = "change_font_size all -2.0";
     };
