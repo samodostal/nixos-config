@@ -3,7 +3,7 @@
 
   home.packages = with pkgs; [
     # Gnome
-    gnome.gnome-tweaks
+    gnome-tweaks
     gnomeExtensions.space-bar
 
     # Applications
