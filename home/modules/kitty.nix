@@ -3,6 +3,7 @@
     enable = true;
     settings = {
       window_padding_width = 0;
+      background = "#151621";
       # hide_window_decorations = "titlebar-and-corners";
     };
     keybindings = {
