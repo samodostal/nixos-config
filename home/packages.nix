@@ -36,10 +36,12 @@
     neofetch
     neovim
     lazygit
+    lazydocker
     gh
     tree-sitter
     tldr
     thefuck
+    btop
 
     # Development kits
     nodejs_22
