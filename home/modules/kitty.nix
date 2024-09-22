@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       window_padding_width = 0;
-      hide_window_decorations = true;
+      # hide_window_decorations = "titlebar-and-corners";
     };
     keybindings = {
       "ctrl+0" = "change_font_size all 0";
