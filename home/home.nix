@@ -7,7 +7,10 @@
 
   home.username = user;
   home.homeDirectory = "/home/${user}";
-  home.sessionPath = [ "$HOME/.cargo/bin/" ];
+  home.sessionPath = [
+    "$HOME/.cargo/bin/"
+    "$HOME/nixos-config/home/shell-scripts/"
+  ];
 
   nixpkgs.overlays = [
     inputs.neovim-nightly-overlay.overlays.default
