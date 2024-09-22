@@ -2,15 +2,24 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    # Gnome
+    # Gnome apps
     gnome-tweaks
+    gnome.dconf-editor
+
+    # Gnome extensions
     gnomeExtensions.space-bar
+    gnomeExtensions.disable-workspace-switcher-overlay
+    gnomeExtensions.unite
+    gnomeExtensions.color-picker
+    gnomeExtensions.cronomix
+    gnomeExtensions.notification-timeout
 
     # Applications
     spotify
     thunderbird
     ticktick
     godot_4
+    saleae-logic-2
     imhex
     ns-usbloader
     kicad
