@@ -1,6 +1,6 @@
 #!/bin/sh
 
-input_file=~/nixos-config/home/shell-scripts/tmux-project-directories
+input_file=~/nixos-config/home/shell-scripts/tmux-project-structure
 
 project=$(while IFS= read -r line; do
   if [[ "$line" =~ ^\s*# || -z "$line" ]]; then
