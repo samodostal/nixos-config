@@ -62,6 +62,8 @@
       bind-key -T copy-mode-vi "C-j" if -F "#{pane_at_bottom}" "" "select-pane -D"
       bind-key -T copy-mode-vi "C-k" if -F "#{pane_at_top}" "" "select-pane -U"
       bind-key -T copy-mode-vi "C-l" if -F "#{pane_at_right}" "" "select-pane -R"
+
+      set-option -g pane-active-border-style bg=default,fg=#2a2f41
     '';
   };
 }
