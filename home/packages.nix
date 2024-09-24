@@ -28,6 +28,8 @@
     bitwarden-desktop
     firefox
     virtualbox
+    plantuml
+    graphviz
 
     # Terminal utilities
     kitty
