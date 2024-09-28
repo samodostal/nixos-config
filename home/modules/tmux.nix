@@ -32,7 +32,7 @@
       bind-key t switch-client -l
 
       bind-key -r p attach-session -t home
-      bind-key -r . attach-session -t nixos
+      bind-key -r . attach-session -t nixos-config
       bind-key -r , attach-session -t notes
       bind-key -r y attach-session -t ghci 
 

@@ -9,10 +9,10 @@ if [ $? -ne 0 ]; then
 fi
 
 # NIXOS CONFIG
-tmux has-session -t nixos 2>/dev/null
+tmux has-session -t nixos-config 2>/dev/null
 if [ $? -ne 0 ]; then
-    tmux new-session -ds nixos -c ~/nixos-config
-    tmux send-keys -t nixos 'nvim' 'C-m'
+    tmux new-session -ds nixos-config -c ~/nixos-config
+    tmux send-keys -t nixos-config 'nvim' 'C-m'
 fi
 
 # NOTES
