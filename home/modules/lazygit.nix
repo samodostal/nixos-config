@@ -5,6 +5,9 @@
       gui = {
         showBottomLine = false;
       };
+      os = {
+        editPreset = "nvim-remote";
+      };
       quitOnTopLevelReturn = true;
     };
   };
