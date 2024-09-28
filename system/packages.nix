@@ -5,6 +5,9 @@
     home-manager
     gnumake
     gcc
+    clang
+    clang-tools
+    libstdcxx5
     cmake
     git
     vim
