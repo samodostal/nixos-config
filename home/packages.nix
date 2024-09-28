@@ -53,8 +53,9 @@
     php
     # rust via rustup
     # haskell via ghcup (not working)
-    lua
-    luajitPackages.luarocks
+    lua51Packages.lua
+    lua51Packages.luarocks
+
     dotnetCorePackages.sdk_9_0
     qmk
   ];
