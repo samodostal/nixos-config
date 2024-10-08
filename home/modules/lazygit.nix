@@ -8,6 +8,11 @@
       os = {
         editPreset = "nvim-remote";
       };
+      git = {
+        paging = {
+          externalDiffCommand = "difft --color=always";
+        };
+      };
       quitOnTopLevelReturn = true;
     };
   };

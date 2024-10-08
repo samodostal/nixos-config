@@ -44,6 +44,7 @@
     tldr
     thefuck
     btop
+    difftastic
 
     # Development kits
     nodejs_22
