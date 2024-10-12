@@ -27,9 +27,15 @@
     freecad
     bitwarden-desktop
     firefox
-    virtualbox
     plantuml
     graphviz
+
+    # Kernel development
+    qemu
+    busybox
+    flex
+    bison
+    debootstrap
 
     # Terminal utilities
     kitty
