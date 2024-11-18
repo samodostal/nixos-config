@@ -5,6 +5,7 @@
       window_padding_width = 0;
       background = "#151621";
       # hide_window_decorations = "titlebar-and-corners";
+      hide_window_decorations = true;
     };
     keybindings = {
       "ctrl+0" = "change_font_size all 0";
