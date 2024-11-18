@@ -9,6 +9,7 @@
     clang-tools
     libstdcxx5
     cmake
+    gdb
     git
     vim
     wget
@@ -25,7 +26,11 @@
     xclip
     fzf
     ripgrep
+    fd
     just
+    openssl
+    man-pages
+    man-pages-posix
 
     # Temporary cura installation via AppImage
     (
