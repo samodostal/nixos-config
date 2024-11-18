@@ -19,10 +19,7 @@
     thunderbird
     ticktick
     godot_4
-    saleae-logic-2
-    imhex
     ns-usbloader
-    kicad
     blender
     freecad
     bitwarden-desktop
@@ -30,12 +27,11 @@
     plantuml
     graphviz
 
-    # Kernel development
-    qemu
-    busybox
-    flex
-    bison
-    debootstrap
+    # Embedded
+    (kicad.override { addons = [ pkgs.kicadAddons.kikit pkgs.kicadAddons.kikit-library ]; })
+    kikit
+    saleae-logic-2
+    imhex
 
     # Terminal utilities
     kitty
