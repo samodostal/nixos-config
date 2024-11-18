@@ -26,6 +26,7 @@
     firefox
     plantuml
     graphviz
+    vlc
 
     # Embedded
     (kicad.override { addons = [ pkgs.kicadAddons.kikit pkgs.kicadAddons.kikit-library ]; })
