@@ -4,7 +4,7 @@
   home.packages = with pkgs; [
     # Gnome apps
     gnome-tweaks
-    gnome.dconf-editor
+    dconf-editor
 
     # Gnome extensions
     gnomeExtensions.space-bar
