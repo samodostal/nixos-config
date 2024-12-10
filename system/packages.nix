@@ -7,7 +7,6 @@
     gcc
     clang
     clang-tools
-    libstdcxx5
     cmake
     gdb
     git
