@@ -9,6 +9,7 @@
     clang-tools
     cmake
     gdb
+    valgrind
     git
     vim
     wget
